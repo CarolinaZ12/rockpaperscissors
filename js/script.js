@@ -1,17 +1,6 @@
 // *************************** YOUR CODE BELOW *******************************
 //******************TEST EARLY AND OFTEN USING console.log() ******************
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
-
-//GLOBAL VARIABLES
-/* global $ */
-$("#shoot").click(function(){
-    $("#userChoice").text($("#input").val());
-});
-var rock="rock";
-var paper="paper";
-var scissors="scissor";
-
-
 // DOCUMENT READY FUNCTION BELOW
 
 var userChoice = ""
@@ -35,7 +24,7 @@ $("#shoot").click(function(){
         $("#computerChoice").html("scissors")
     }
     if(computerChoice==="rock" && userChoice==="rock"){
-            $("#result1").html("Its a draw");
+            $("#result1").html("No one Wins!");
             
         }else if(computerChoice==="rock" && userChoice==="paper"){
             $("#result1").html("User Wins!You are elite!");
@@ -43,14 +32,14 @@ $("#shoot").click(function(){
             $("#result1").html("Computure Wins!OOOF!");
     }
     if(computerChoice==="paper" && userChoice==="paper"){
-        $("#result1").html("Its a draw");
+        $("#result1").html("No one Wins!");
         }else if(computerChoice==="paper" && userChoice==="scissors"){
             $("#result1").html("User Wins!You are elite!");
         }else if(computerChoice==="paper" && userChoice==="rock"){
             $("#result1").html("Computure Wins!OOOF!");
     }
     if(computerChoice==="scissors" && userChoice==="scissors"){
-        $("#result1").html("Its a draw");
+        $("#result1").html("No one Wins!");
         }else if(computerChoice==="scissors" && userChoice==="rock"){
             $("#result1").html("User Wins!You are elite!");
         }else if(computerChoice==="scissors" && userChoice==="paper"){
@@ -58,9 +47,9 @@ $("#shoot").click(function(){
     }
     console.log(randomNumber);
     console.log(computerChoice);
-$("#play").click(function(){
+$("#again").click(function(){
    location.reload(); 
-   $("#play").hide();
+   $("#again").hide();
 });
     
 });
