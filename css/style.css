@@ -1,6 +1,8 @@
 h1{
   font-size:50px;
+  font-family: 'Unlock', cursive;
   color:white;
+  background-color:red;
 }
 #workPlz{
   display:flex;
@@ -12,12 +14,16 @@ h1{
 }
 #words{
   color:white;
+  background-color:red;
   font-size:25px;
+  font-family: 'Unlock', cursive;
 }
 #top{
   display:flex;
   justify-content:space-around;
-  color:yellow;
+  color:#f4ee42;
+  font-family: 'Bungee', cursive;
+  background-color:black;
   font-size:25px;
 }
 #open{
@@ -35,6 +41,8 @@ h1{
 #numberOne{
   display:flex;
   justify-content:space-between;
-  color:yellow;
+  background-color:black;
+  color:#f4ee42;
+  font-family: 'Bungee', cursive;
   font-size:15px;
 }
