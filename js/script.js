@@ -9,7 +9,7 @@ $("#shoot").click(function(){
 });
 var rock="rock";
 var paper="paper";
-var scissors="scissors";
+var scissors="scissor";
 
 
 // DOCUMENT READY FUNCTION BELOW
