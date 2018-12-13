@@ -5,45 +5,43 @@
   <title>RPS Game</title>
   <!-- Link CSS here -->
   <link type='text/css' rel='stylesheet' href='css/style.css' />
-  <Style type='text/css' >body{background-color:rgb(0,0,0);background-image:url(http://www.zingerbugimages.com/backgrounds/blue_christmas_lights_out_of_focus_seamless_texture.jpg);background-position:top left;background-repeat:repeat;background-attachment:fixed;}</Style>
+  <Style type='text/css'>body{background-color:rgb(0,0,0);background-image:url(http://www.zingerbugimages.com/backgrounds/blue_christmas_lights_out_of_focus_seamless_texture.jpg);background-position:top left;background-repeat:repeat;background-attachment:fixed;}</Style>
 </head>
 
 <body>
-
-  <div class="row">
-    
-      <h1>Rock Paper Scissors</h1>
+      <div id="open">
+      <h1><strong>Rock Paper Scissors</strong></h1>
+      </div>
       
-      <p id="rock">Rock</p>
-      <div class="rps">
-        <img class="dwayne" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Dwayne_Johnson_2%2C_2013.jpg/220px-Dwayne_Johnson_2%2C_2013.jpg">
+      
+      <div id="top">
+        <p><strong>Rock</strong></p>
+        <p><strong>Paper</strong></p>
+        <p><strong>Scissors</strong></p>
       </div>
-      <p id="paper">Paper</p>
-      <div class="rps">
-        <img class="toilet" src="http://themetapicture.com/media/funny-toilet-paper-rolling.jpg">
+      
+      <div id="workPlz">
+      <img class="funny" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Dwayne_Johnson_2%2C_2013.jpg/220px-Dwayne_Johnson_2%2C_2013.jpg">
+      <img class="funny" src="http://themetapicture.com/media/funny-toilet-paper-rolling.jpg">
+      <img class="funny" src="http://www.likable.info/img/f/u/funny-scissor-cool-idea.png">
       </div>
-      <p id="scissor">Scissors</p>
-      <div class="rps">
-      <img class="hand" src="http://www.likable.info/img/f/u/funny-scissor-cool-idea.png">
+      
+      <div id="words">
+      <h3><strong>Please Submit Your Choice Below</strong></h3>
       </div>
-      <h3>Please Submit Your Choice Below</h3>
-      <div>
+      
+      <div id="lol">
         <input id="input">
         <button id="shoot">Shoot!</button>
-      </div>
+        </div>
 
-      <div id="choices" class="row">
-        <div>
-          <h4>User Choice</h4>
+        <div id="numberOne">
+          <h4><strong>User Choice</strong></h4>
           <p id="userChoice"></p>
-        </div>
-        <div>
-          <h4>Computer Choice</h4>
+          <h4><strong>Computer Choice</strong></h4>
           <p id="computerChoice"></p>
-        </div>
+          <div id="result"></div>
       </div>
-      <div id="result"></div>
-  </div>
 
   <!-- Link JQuery here -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
